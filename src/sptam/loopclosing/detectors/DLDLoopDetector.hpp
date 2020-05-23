@@ -36,7 +36,7 @@
 #include "../LCDetector.hpp"
 
 // DLoopDetector and DBoW2
-#include "DBoW2.h"
+#include "DBoW2/DBoW2.h"
 #include "FBRISK.h"
 #include "DLoopDetector.h"
 
