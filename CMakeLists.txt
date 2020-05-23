@@ -40,7 +40,10 @@ find_package(catkin REQUIRED COMPONENTS
   image_transport
   nodelet
 )
-include_directories(${catkin_INCLUDE_DIRS})
+
+# add 2020.05.22
+set(DBoW2_INCLUDE_DIRS "Thirdparty/DBoW2/include/DBoW2")
+include_directories(${catkin_INCLUDE_DIRS} ${DBoW2_INCLUDE_DIRS})
 
 ###################################
 ## catkin specific configuration ##
